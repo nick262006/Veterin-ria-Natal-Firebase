@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Visualização - Veterinária Natal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 mb-5">
+        <a href="home.html" class="navbar-brand ms-lg-5">
+            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Natal</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="home.html" class="nav-item nav-link">Home</a>
+                <a href="agendamento.html" class="nav-item nav-link">Agendamento</a>
+                <a href="visualizacao.html" class="nav-item nav-link active">Visualização</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="home.html" class="dropdown-item">Home</a>
+                        <a href="agendamento.html" class="dropdown-item">Agendamento</a>
+                        <a href="visualizacao.html" class="dropdown-item">Visualização</a>
+                        <a href="" class="dropdown-item">Contato</a>
+                    </div>
+                </div>
+                <a href="" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contato <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-primary ps-5 mb-5">
+                        <h6 class="text-primary text-uppercase">Visualização de Consultas</h6>
+                        <h1 class="display-5 text-uppercase mb-0">Visualize as consultas agendadas!</h1>
+                    </div>
+                    <div class="container1">
+                        <div class="form">
+                        <h6>CPF do Dono:</h6>
+                        <input type="text" name="RollNo" id="roll" /> <br /><br />
+                        <h6>Nome do Dono:</h6>
+                        <input type="text" name="nome" id="nome" /> <br /><br />
+                        <h6>Telefone do Dono:</h6>
+                        <input type="text" name="telefone" id="telefone" /> <br /><br />
+                        <h6>Nome do Pet:</h6>
+                        <input type="text" name="nomepet" id="nomepet" /> <br /><br />
+                        <h6>Tipo de Consulta:</h6>
+                        <input type="text" name="tipoconsulta" id="tipoconsulta" /> <br /><br />
+                        <h6>Data da Consulta:</h6>
+                        <input type="date" name="dataconsulta" id="dataconsulta" /> <br /><br />
+                        </div>
+                  
+                        <div class="buttons">
+                          <button id="read">Visualizar</button>
+                          <button id="update">Atualizar</button>
+                          <button id="delete">Excluir</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+<br>
+<br>
+<br>
+<br>
+<button id="insert"></button>
+    
+     <!-- Footer Start -->
+     <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Informações</h5>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Rua Verão, Paulicéia, SBC</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>vetnatal@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>11 93546-4658</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Atalhos</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="home.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="agendamento.html"><i class="bi bi-arrow-right text-primary me-2"></i>Agendamento</a>
+                        <a class="text-body mb-2" href="visualizacao.html"><i class="bi bi-arrow-right text-primary me-2"></i>Visualização</a>
+                        <a class="text-body mb-2" href=""><i class="bi bi-arrow-right text-primary me-2"></i>Contato</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Links Populares</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="home.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="agendamento.html"><i class="bi bi-arrow-right text-primary me-2"></i>Agendamento</a>
+                        <a class="text-body mb-2" href="visualizacao.html"><i class="bi bi-arrow-right text-primary me-2"></i>Visualização</a>
+                        <a class="text-body mb-2" href=""><i class="bi bi-arrow-right text-primary me-2"></i>Contato</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Seu e-mail">
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Siga-nos</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary btn-square me-2" href="https://freewebsitecode.com/"><i class="bi bi-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="https://facebook.com/freewebsitecode/"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="https://freewebsitecode.com/"><i class="bi bi-linkedin"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://youtube.com/freewebsitecode/"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-body">
+                    <a class="text-body" href="">Termos e Condições</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Políticas de Privacidade</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Ajuda</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Perguntas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; Veterinária Natal</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Nícolas Borges Natal</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="main.js"></script>
+    <script src="fireConfig.js"></script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
